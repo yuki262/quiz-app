@@ -1,0 +1,19 @@
+.answerArea {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: fit-content;
+  height: fit-content;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 12px;
+  margin-inline: auto;
+
+  padding: 10px;
+  background-color: red;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px black;
+}

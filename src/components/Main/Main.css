@@ -1,0 +1,8 @@
+.mainArea {
+  background-color: lightblue;
+  padding: 16px;
+  margin: auto;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px black;
+}
