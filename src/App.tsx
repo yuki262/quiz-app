@@ -1,8 +1,14 @@
 import "./App.css";
-import { Main } from "./components/Main/Main";
+import { Content } from "./components/Content/Content";
+import { Title } from "./components/Title/Title";
 
 function App() {
-  return <Main />;
+  return (
+    <div className="appArea">
+      <Title />
+      <Content />
+    </div>
+  );
 }
 
 export default App;

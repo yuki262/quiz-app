@@ -1,7 +1,7 @@
-.mainArea {
-  background-color: lightblue;
+.contentArea {
+  background-color: orange;
   padding: 16px;
-  margin: auto;
+  margin-top: auto;
 
   border-radius: 8px;
   box-shadow: 0px 0px 4px black;

@@ -1,7 +1,11 @@
 import { useState } from "react";
 import "./Answer.css";
 
-const Answer = () => {
+interface Answer {
+  text: string;
+}
+
+const Answer: React.FC<Answer> = ({ text }) => {
   const [click, setClicked] = useState<number>(0);
 
   const handleClick = () => {
@@ -11,7 +15,7 @@ const Answer = () => {
 
   return (
     <div className="answerBox" onClick={handleClick}>
-      This is an answer
+      {text}
     </div>
   );
 };
