@@ -1,15 +1,15 @@
 import { Answers } from "../Answers/Answers";
 import { Question } from "../Question/Question";
 
-import "./Main.css";
+import "./Content.css";
 
-const Main = () => {
+const Content = () => {
   return (
-    <div className="mainArea">
+    <div className="contentArea">
       <Question />
       <Answers />
     </div>
   );
 };
 
-export { Main };
+export { Content };
